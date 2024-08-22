@@ -45,7 +45,7 @@ Please download the offical Med-AD benchmark from DDAD [Google Drive](https://dr
 The Med-AD benchmark is organized using four public datasets, and VinDr-CXR is one of them.
 
 ## Model
-<img width="90%" src="./fig/models.png" />
+<img width="60%" src="./fig/models.png" />
 
 ## Results
 
