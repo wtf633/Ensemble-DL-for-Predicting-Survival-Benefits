@@ -45,7 +45,7 @@ Please download the offical Med-AD benchmark from DDAD [Google Drive](https://dr
 The Med-AD benchmark is organized using four public datasets, and VinDr-CXR is one of them.
 
 ## Model
-<img width="55%" src="./fig/models.png" />
+<img width="60%" src="./fig/models.png" />
 
 * **Network 1 (EfficientNet B1 Model):** This subnetwork uses the EfficientNet B1 convolutional neural network (CNN) for supervised learning (Figure A).<br>
 * **Network 2 (Hybrid Supervised-Unsupervised Model):** This subnetwork employs a two-stage approach (Figure B).<br>
