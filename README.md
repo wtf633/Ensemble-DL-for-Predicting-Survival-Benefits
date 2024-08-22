@@ -53,7 +53,7 @@ The Med-AD benchmark is organized using four public datasets, and VinDr-CXR is o
 
 ## Results
 
-### Benchmark Results on ZhangLab and CheXpert Datasets
+### Ablation analysis to optimize Network 1 to Network 3in overall survival and progression-free survival
 
 
 
