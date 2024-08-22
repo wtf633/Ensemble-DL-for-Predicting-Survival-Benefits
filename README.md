@@ -30,7 +30,7 @@ git clone https://github.com/wtf633/Whole-liver-DeepL-Model.git
 
 # Create conda environment
 conda env create -f environment.yml
-conda activate ppad
+conda activate your_environment_name
 ```
 ## Dataset
 
