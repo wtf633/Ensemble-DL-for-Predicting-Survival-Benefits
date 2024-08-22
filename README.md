@@ -45,10 +45,7 @@ Please download the offical Med-AD benchmark from DDAD [Google Drive](https://dr
 The Med-AD benchmark is organized using four public datasets, and VinDr-CXR is one of them.
 
 ## Model
-
-PPAD on ZhangLab dataset [Google Drive](https://drive.google.com/file/d/1eRTXBucyzOTljPaxoXCiNRn5ZjAB837V/view?usp=sharing).<br>
-PPAD on CheXpert dataset [Google Drive](https://drive.google.com/file/d/1ZT-qGSkkRseGw7aed2owrb8EOBVxFkO5/view?usp=sharing).<br>
-PPAD on VinDr-CXR dataset [Google Drive](https://drive.google.com/file/d/1UYiR5PypW3j1mj0s3-4CIKC5uMcsuwI0/view?usp=sharing).
+<img width="5%" src="./fig/models.tif" />
 
 ## Results
 
