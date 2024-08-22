@@ -25,7 +25,7 @@ Please follow the guide to install and set up the project.
 
 ```bash
 # Clone the repository
-git clone https://github.com/sunzc-sunny/PPAD.git
+git clone https://github.com/wtf633/Whole-liver-DeepL-Model.git
 
 # Create conda environment
 conda env create -f environment.yml
