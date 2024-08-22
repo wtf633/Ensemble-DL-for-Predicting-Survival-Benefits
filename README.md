@@ -45,13 +45,15 @@ The data that support the findings of this study are available from the correspo
 
 ## Results
 
-### Ablation analysis to optimize Network 1 to Network 3in overall survival and progression-free survival
+#### Ablation analysis to optimize Network 1 to Network 3in overall survival and progression-free survival
 <img width="80%" src="./results/res1.PNG" />
 
 
-### Performance comparison between standalone imaging models (Network 1 to Network 3) and Ensemble DL in overall survival and progression-free survival
+#### Performance comparison between standalone imaging models (Network 1 to Network 3) and Ensemble DL in overall survival and progression-free survival
 <img width="80%" src="./results/res2.PNG" />
 
+#### Grad-CAM Attention: Heatmaps show image regions influential for sub-model predictions. Each sub-network emphasizes distinct aspects despite tumor focus
+<img width="80%" src="./results/cam.PNG" />
 
 *It is worth noting that the two tables above are only part of our results. Please refer to the full text and supplementary materials for other results.
 
