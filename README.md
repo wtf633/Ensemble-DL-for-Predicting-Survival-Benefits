@@ -57,7 +57,7 @@ The Med-AD benchmark is organized using four public datasets, and VinDr-CXR is o
 
 
 
-### Benchmark Results on VinDr-CXR Dataset
+### Performance comparison between standalone imaging models (Network 1 to Network 3) and Ensemble DL in overall survival and progression-free survival
 
 
 
