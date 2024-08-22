@@ -53,11 +53,11 @@ The Med-AD benchmark is organized using four public datasets, and VinDr-CXR is o
 ## Results
 
 ### Ablation analysis to optimize Network 1 to Network 3in overall survival and progression-free survival
-<img width="60%" src="./results/res1.png" />
+<img width="60%" src="./results/res1.PNG" />
 
 
 ### Performance comparison between standalone imaging models (Network 1 to Network 3) and Ensemble DL in overall survival and progression-free survival
-<img width="60%" src="./results/res2.png" />
+<img width="60%" src="./results/res2.PNG" />
 
 
 *It is worth noting that the two tables above are only part of our results. Please refer to the full text and supplementary materials for other results.
