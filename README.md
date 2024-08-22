@@ -47,9 +47,9 @@ The Med-AD benchmark is organized using four public datasets, and VinDr-CXR is o
 ## Model
 <img width="60%" src="./fig/models.png" />
 
-Network 1 (EfficientNet B1 Model): This subnetwork uses the EfficientNet B1 convolutional neural network (CNN) for supervised learning (Figure A).\n
-Network 2 (Hybrid Supervised-Unsupervised Model): This subnetwork employs a two-stage approach (Figure B).\n
-Network 3 (CNN-Transformer Model): This subnetwork adopts a CNN-Transformer architecture based on multi-plane and multi-slice Transformer networks (Figure C).
+**Network 1 (EfficientNet B1 Model):** This subnetwork uses the EfficientNet B1 convolutional neural network (CNN) for supervised learning (Figure A).<br>
+**Network 2 (Hybrid Supervised-Unsupervised Model):** This subnetwork employs a two-stage approach (Figure B).<br>
+**Network 3 (CNN-Transformer Model):** This subnetwork adopts a CNN-Transformer architecture based on multi-plane and multi-slice Transformer networks (Figure C).
 
 ## Results
 
