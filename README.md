@@ -7,6 +7,6 @@
   <!-- <div align="center"></div> -->
 </p>
 
-## MICCAI-2024
+## Our article is in the submission stage...
 ![Official](https://img.shields.io/badge/Official-Yes-blue)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
