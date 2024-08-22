@@ -9,7 +9,7 @@
 ## Overview
 
 We developed an Ensemble-DL model using pre-treatment multiphase CT images to predict overall survival (OS) and progression-free survival (PFS). Three additional machine learning models were built for comparison based on radiomic features, tumor size-based criteria, and established clinical risk factors. We assessed the Ensemble-DL signature's incremental predictive value compared to clinical risk factors and evaluated the model's interpretability.
-<img width="100%" src="./fig/all.png" />
+<img width="80%" src="./fig/all.png" />
 
 ## Table of Contents
 
@@ -33,15 +33,7 @@ conda activate ppad
 ```
 ## Dataset
 
-**ZhangLab Chest X-ray**  <br>
-Please download the offical ZhangLab Chest X-ray benchmark from SQUID [Google drive](https://drive.google.com/file/d/1kgYtvVvyfPnQnrPhhLt50ZK9SnxJpriC/view?usp=sharing).
-
-**Stanford ChexPert** <br>
-Please download the offical Stanford ChexPert benchmark from SQUID [Google drive](https://drive.google.com/file/d/14pEg9ch0fsice29O8HOjnyJ7Zg4GYNXM/view?usp=sharing).
-
-**VinDr-CXR** <br>
-Please download the offical Med-AD benchmark from DDAD [Google Drive](https://drive.google.com/file/d/1ijdaVBNdkYP4h0ClYFYTq9fN1eHoOSa6/view?usp=sharing).  <br>
-The Med-AD benchmark is organized using four public datasets, and VinDr-CXR is one of them.
+The data that support the findings of this study are available from the corresponding authors with a signed data access agreement. De-identified patient-level clinical and outcome data will be provided upon reasonable request. The CT image data, however, are not available because they contain sensitive information that could compromise patient privacy.
 
 ## Model
 <img width="60%" src="./fig/models.png" />
