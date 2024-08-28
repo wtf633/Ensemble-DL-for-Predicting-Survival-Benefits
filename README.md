@@ -8,7 +8,7 @@
 
 ## Overview
 
-We developed an Ensemble-DL model using pre-treatment multiphase CT images to predict overall survival (OS) and progression-free survival (PFS). Three additional machine learning models were built for comparison based on radiomic features, tumor size-based criteria, and established clinical risk factors. We assessed the Ensemble-DL signature's incremental predictive value compared to clinical risk factors and evaluated the model's interpretability.
+This study proposes an ensemble deep learning framework to predict survival outcomes (overall survival [OS] and progression-free survival [PFS]) for patients with unresectable hepatocellular carcinoma (HCC) receiving immune checkpoint inhibitors (ICIs). The framework leverages deep learning features extracted from baseline CT images, directly predicting survival outcomes and fully exploiting imaging data. To enhance model robustness and generalizability, we employed an ensemble learning strategy. This approach integrates three complementary neural networks, each with distinct architectural characteristics. The ensemble framework consists of three 3D  neural networks: a standard CNN (network 1), a hybrid CNN incorporating supervised and unsupervised learning (network 2), and a CNN-Transformer model (network 3). Network 1 is a traditional 3D-CNN architecture designed to extract relevant features from CT images. Network 2 combines supervised and unsupervised learning components, aiming to improve feature extraction and generalization by learning both discriminative and latent representations. Network 3 integrates the strengths of CNNs and transformers, leveraging CNNs for local spatial pattern recognition and transformers for modeling long-range dependencies. The ensemble framework combines the predictions from these three sub-models using a weighted voting strategy. The weights are determined based on the performance of each sub-model on a validation set. This approach allows the ensemble to leverage the strengths of each individual model and mitigate their weaknesses. By employing this ensemble deep learning framework, we aim to provide a more accurate and reliable tool for predicting survival outcomes in patients with unresectable HCC receiving ICIs. This information can aid in clinical decision-making and potentially improve patient outcomes.
 <br></br>
 <img width="95%" src="./fig/1.png" />
 
@@ -34,7 +34,7 @@ conda activate your_environment_name
 ```
 ## Dataset
 
-The data that support the findings of this study are available from the corresponding authors with a signed data access agreement. De-identified patient-level clinical and outcome data will be provided upon reasonable request. The CT image data, however, are not available because they contain sensitive information that could compromise patient privacy.
+Data related to this study, including de-identified participant data with the accompanying data dictionary, original CT images, study protocol, and statistical analysis plan, will be made available to the scientific community upon publication. Requests for these data should be directed to the corresponding authors and must be reasonable. A signed data use agreement and institutional review board approval will be required before the release of any research data.
 
 ## Model
 <img width="70%" src="./fig/models.png" />
@@ -52,7 +52,7 @@ The data that support the findings of this study are available from the correspo
 #### Performance comparison between standalone imaging models (Network 1 to Network 3) and Ensemble DL in overall survival and progression-free survival
 <img width="80%" src="./results/res2.PNG" />
 
-#### Grad-CAM Attention: Heatmaps show image regions influential for sub-model predictions. Each sub-network emphasizes distinct aspects despite tumor focus
+#### Grad-CAM Attention: Heatmaps illustrate the key image regions that most influence the sub-models' predictions. While all sub-networks focus on the tumor, each emphasizes distinct features, underscoring their complementary nature.
 <img width="75%" src="./results/cam.png" />
 
 *It is worth noting that the two tables above are only part of our results. Please refer to the full text and supplementary materials for other results.
