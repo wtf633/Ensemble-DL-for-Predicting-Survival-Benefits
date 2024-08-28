@@ -10,7 +10,7 @@
 
 We developed an Ensemble-DL model using pre-treatment multiphase CT images to predict overall survival (OS) and progression-free survival (PFS). Three additional machine learning models were built for comparison based on radiomic features, tumor size-based criteria, and established clinical risk factors. We assessed the Ensemble-DL signature's incremental predictive value compared to clinical risk factors and evaluated the model's interpretability.
 <br></br>
-<img width="95%" src="./fig/al.png" />
+<img width="95%" src="./fig/1.png" />
 
 ## Table of Contents
 
